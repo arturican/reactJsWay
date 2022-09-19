@@ -1,4 +1,7 @@
 .App {
+  display: grid;
+  grid-template-areas: "h h h"
+                       "n c c";
   text-align: center;
 }
 
@@ -35,4 +38,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.app-wrapper {
+  display: grid;
+  grid-template-areas: "h h h"
+                       "n c c";
 }

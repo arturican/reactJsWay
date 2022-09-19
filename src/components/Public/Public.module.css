@@ -1,0 +1,8 @@
+.content {
+    background-color: aquamarine;
+    grid-area: c;
+}
+
+.image {
+    padding: 50px;
+}
