@@ -9,16 +9,16 @@ const Dialogs = () => {
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
                 <div className={s.dialog + ' ' + s.active}>
-                    <NavLink to={'Artur'}>Artur</NavLink>
+                    <NavLink to='dialogs/1'>Artur</NavLink>
                 </div>
                 <div className={s.dialog}>
-                    Dilpopo
+                    <NavLink to='dialogs/2'>Dilpopo</NavLink>
                 </div>
                 <div className={s.dialog}>
-                    Arturican
+                    <NavLink to='dialogs/3'>Arturican</NavLink>
                 </div>
                 <div className={s.dialog}>
-                    Vasya
+                    <NavLink to='dialogs/4'>Vasya</NavLink>
                 </div>
             </div>
             <div className={s.messages}>
