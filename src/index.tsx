@@ -31,6 +31,6 @@ let posts = [
 
 
 ReactDOM.render(
-    <App posts={posts} dialogs={dialogsData} message={messageData}/>,
+    <App posts={posts}/>,
   document.getElementById('root')
 );

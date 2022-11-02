@@ -8,6 +8,8 @@ type DialogsItemType = {
     id: number
 }
 
+
+
  export const DialogsItem = (props:DialogsItemType) => {
     return (
     <div className={s.dialog + ' ' + s.active}>
