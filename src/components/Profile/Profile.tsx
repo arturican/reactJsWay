@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {MyPost} from "./MyPost/MyPost";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
@@ -14,7 +13,7 @@ type PostsArrayType = {
 }
 
 
-const Profile = (props: PostsType) => {
+const Profile = (props: any) => {
 
     return (
         <div>
