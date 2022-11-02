@@ -1,12 +1,10 @@
 import React from 'react';
 import s from './Post.module.css';
 
-
 type MessageLikesPropsType = {
     message: string;
     likes: number;
 }
-
 
 const Post = (props: MessageLikesPropsType) => {
     return (
