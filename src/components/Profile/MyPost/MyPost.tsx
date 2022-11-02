@@ -1,17 +1,11 @@
 import React from 'react';
 import Post from "./Post/Post";
+import {PostsType} from "../Profile";
 
 
-export const MyPost = () => {
-    let posts = [
-        {id: 1, message: 'Всем привет!', likes: 10},
-        {id: 2, message: 'Всем привет!', likes: 10},
-        {id: 3, message: 'Всем привет!', likes: 10},
-        {id: 4, message: 'Всем привет!', likes: 10},
-        {id: 5, message: 'Всем привет!', likes: 10},
-    ]
+export const MyPost = (props: PostsType) => {
 
-    let postElement = posts.map(p => <Post message={p.message} likes={p.likes}/>)
+    let postElement = props.posts.map(p => <Post message={p.message} likes={p.likes}/>)
 
     return (
         <div>
