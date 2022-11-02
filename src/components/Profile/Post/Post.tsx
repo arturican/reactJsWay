@@ -4,7 +4,7 @@ import s from './Post.module.css';
 
 type MessageLikesPropsType = {
     message: string;
-    likes: string;
+    likes: number;
 }
 
 
