@@ -5,14 +5,21 @@ import {PostsType} from "../Profile";
 
 export const MyPost = (props: PostsType) => {
 
+    let newPostElement = React.createRef<HTMLTextAreaElement>();
+
     let postElement = props.posts.map(p => <Post message={p.message} likes={p.likes}/>)
+
+    let addPost = () => {
+        let text = newPostElement.current?.value;
+        alert(text)
+    }
 
     return (
         <div>
             <div>
                 <h3>Посты</h3>
-                <textarea></textarea>
-                <button>send</button>
+                <textarea ref={newPostElement}></textarea>
+                <button onClick={addPost}>send</button>
             </div>
             {postElement}
         </div>

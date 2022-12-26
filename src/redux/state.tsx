@@ -21,12 +21,6 @@ let state = {
             {id: 4, message: 'Всем привет!', likes: 10},
             {id: 5, message: 'Всем привет!', likes: 10},
             {id: 6, message: 'Всем привет!', likes: 10},
-            {id: 1, message: 'Всем привет!', likes: 10},
-            {id: 2, message: 'Всем привет!', likes: 10},
-            {id: 3, message: 'Всем привет!', likes: 10},
-            {id: 4, message: 'Всем привет!', likes: 10},
-            {id: 5, message: 'Всем привет!', likes: 10},
-            {id: 6, message: 'Всем привет!', likes: 10},
         ]
     },
 }
